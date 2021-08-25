@@ -14,7 +14,7 @@ class MyForm extends React.Component {
     return (
       <form>
       <h1>Hello {this.state.username}</h1>
-      <p>Enter you name:</p>
+      <p>Enter your name:</p>
       <input
         type='text'
         onChange={this.myChangeHandler}
